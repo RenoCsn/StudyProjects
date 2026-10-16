@@ -1,0 +1,54 @@
+.h1 .h2 .h3 .h4 .h5 .p .span {
+    font-family: inherit;
+    text-align: inherit;
+}
+
+.h1 .h2 .h3 .h4 .h5 {
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.h2 {
+    font-size: 3rem;
+}
+
+.h3 {
+    font-size: 2.25rem;
+}
+
+.h4 {
+    font-size: 1.5rem;
+}
+
+.h5 {
+    font-size: 1.25rem;
+}
+
+.p {
+    font-size: 1.125rem;
+}
+
+.span {
+    font-size: 1rem;
+}
+
+.primary {
+    color: #00ad6a;
+}
+
+.textPrimary {
+    color: #464951;
+}
+
+.textSecondary {
+    color: #080c16;
+}
+
+.background {
+    color: #1fe374;
+}

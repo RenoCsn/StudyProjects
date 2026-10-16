@@ -5,10 +5,10 @@ TEMPLATE ?= react-ts
 .PHONY: install dev storybook
 
 install:
-	cd $(NAME) && npm install
+	npm install
 
 dev:
-	cd $(NAME) && npm run dev
+	npm run dev
 
 storybook: 
-	cd $(NAME) && npm run storybook
+	npm run storybook
