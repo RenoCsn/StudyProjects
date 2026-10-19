@@ -1,0 +1,63 @@
+.resetButton {
+    all: unset;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.resetButton:focus-visible {
+    outline: 2px solid #005fcc;
+}
+
+.baseBtn {
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.ghost {
+    color: #00ad6a;
+    border-color: #00ad6a;
+    background-color: transparent;
+    border-width: 2px;
+    font-weight: 700;
+    border-style: solid;
+    padding: 0.25rem 1rem;
+    font-size: 1rem;
+}
+
+.expand {
+    transform: scale(1);
+    transition: all .05s ease-in-out;
+}
+
+.expand:hover {
+    transform: scale(1.1);
+}
+
+.offset:hover {
+    color: #00ad6a;
+    box-shadow: -5px 5px #00ad6a;
+    transform: translate3d(5px, -5px, 0);
+}
+
+.offset:hover::before {
+    display: block;
+}
+
+.offset::before {
+    display: none;
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background-color: transparent;
+    transform: translate3d(-5px, 5px, -1px);
+    transform-style: preserve-3d;
+}
+
+
+
+/* TODO cor da borda offset animaçao, demais variantes de botão, stories */
