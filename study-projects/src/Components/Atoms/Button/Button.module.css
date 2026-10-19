@@ -4,18 +4,30 @@
     box-sizing: border-box;
 }
 
-.resetButton:focus-visible {
-    outline: 2px solid #005fcc;
-}
-
 .baseBtn {
     text-align: center;
     cursor: pointer;
     position: relative;
     display: inline-block;
+    color: #062c27;
 }
 
-.ghost {
+.primary {
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #1fe374;
+    font-weight: 700;
+    color: #464951;
+    font-size: 1.25rem;
+}
+
+.primary:hover {
+    color: #062c27;
+}
+
+.outlined {
     color: #00ad6a;
     border-color: #00ad6a;
     background-color: transparent;
@@ -23,6 +35,23 @@
     font-weight: 700;
     border-style: solid;
     padding: 0.25rem 1rem;
+    font-size: 1rem;
+}
+
+.ghost {
+    color: #00ad6a;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ghost:hover {
+    color: #062c27;
+}
+
+.gradient {
+    background-image: linear-gradient(90deg, #00ab6a, #23ea76);
+    padding: 1rem 2rem;
+    font-weight: 700;
     font-size: 1rem;
 }
 
@@ -36,8 +65,13 @@
 }
 
 .offset:hover {
-    color: #00ad6a;
     box-shadow: -5px 5px #00ad6a;
+    transform: translate3d(5px, -5px, 0);
+}
+
+.offset:hover,
+.gradient:hover {
+    box-shadow: -5px 5px #464951 !important;
     transform: translate3d(5px, -5px, 0);
 }
 
@@ -57,7 +91,3 @@
     transform: translate3d(-5px, 5px, -1px);
     transform-style: preserve-3d;
 }
-
-
-
-/* TODO cor da borda offset animaçao, demais variantes de botão, stories */
