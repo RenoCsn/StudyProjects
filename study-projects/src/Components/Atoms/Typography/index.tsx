@@ -4,7 +4,7 @@ import styles from './Typography.module.css'
 
 export const TypographyComponent: React.FC<TypographyType> = ({
   color = 'primary',
-  variant = 'p',
+  variant = 'span',
   children,
 }: TypographyType) => {
   const Component = variant as ElementType

@@ -71,7 +71,7 @@
 
 .offset:hover,
 .gradient:hover {
-    box-shadow: -5px 5px #464951 !important;
+    box-shadow: -5px 5px #464951;
     transform: translate3d(5px, -5px, 0);
 }
 
