@@ -16,20 +16,16 @@ export const FaqComponent: React.FC<FaqType> = ({ faqItens }) => {
       <div className={styles.faqItems}>
         {faqItens?.map((faqItem) => (
           <div className={styles.faqItem}>
-            {/* <div className={styles.faqItemQuestion}> */}
             <TypographyComponent
               children={faqItem.question}
               variant='h5'
               color='textSecondary'
             />
-            {/* </div> */}
-            {/* <div className={styles.faqItemAnswer}> */}
             <TypographyComponent
               children={faqItem.answer}
               variant='p'
               color='textPrimary'
             />
-            {/* </div> */}
           </div>
         ))}
       </div>

@@ -1,6 +1,6 @@
 .card {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     text-align: center;
     background-color: #eafaf1;
     height: 100%;
