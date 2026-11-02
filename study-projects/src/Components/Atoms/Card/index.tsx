@@ -25,12 +25,14 @@ export const CardComponent: React.FC<CardType> = ({
   )
 
   return (
-    <div className={styles.card}>
-      {variant === 'free'
-        ? children
-        : variant === 'normal'
-          ? normalCard
-          : premiumCard}
-    </div>
+    <>
+      {variant === 'free' ? (
+        <div className={styles.cardFree}>{children}</div>
+      ) : variant === 'normal' ? (
+        <div className={styles.card}>{normalCard}</div>
+      ) : (
+        <div className={styles.card}>{premiumCard}</div>
+      )}
+    </>
   )
 }

@@ -29,10 +29,11 @@ export const ProductComponent: React.FC<ProductType> = ({
         </div>
       </div>
       <div className={styles.productsContainer}>
-        <div className={styles.cards}></div>
-        <CardComponent variant='free' children={freeCard} />
-        <CardComponent variant='normal' children={normalCard} />
-        <CardComponent variant='premium' children={premiumCard} />
+        <div className={styles.cards}>
+          <CardComponent variant='free' children={freeCard} />
+          <CardComponent variant='normal' children={normalCard} />
+          <CardComponent variant='premium' children={premiumCard} />
+        </div>
       </div>
     </div>
   )

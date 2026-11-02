@@ -11,17 +11,11 @@ export default meta
 
 type Story = StoryObj<typeof meta>
 
-const freeCard = (
-  <div style={{ width: '33.33333%', padding: '2rem', display: 'flex' }}></div>
-)
+const freeCard = <div style={{ width: '392px', height: '400px' }}>a</div>
 
-const normalCard = (
-  <div style={{ width: '33.33333%', padding: '2rem', display: 'flex' }}></div>
-)
+const normalCard = <div style={{ width: '392px', height: '400px' }}>a</div>
 
-const premiumCard = (
-  <div style={{ width: '33.33333%', padding: '2rem', display: 'flex' }}></div>
-)
+const premiumCard = <div style={{ width: '392px', height: '400px' }}>a</div>
 
 export const Default: Story = {
   args: {
