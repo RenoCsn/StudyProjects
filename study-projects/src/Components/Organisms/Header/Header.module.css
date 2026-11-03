@@ -1,5 +1,5 @@
 .header {
-    background-color: #eafaf1;
+    background-color: var(--color-background-primary-light);
 }
 
 .headerContainer {
@@ -39,15 +39,15 @@
 
 .navActions {
     text-decoration: none;
-    color: #00ad6a;
+    color: var(--color-brand-primary);
     font-weight: 700;
     cursor: pointer;
 }
 
 .navActions:hover {
-    color: #062c27;
+    color: var(--color-brand-dark);
 }
 
 .navActionsActive {
-    color: #062c27;
+    color: var(--color-brand-dark);
 }

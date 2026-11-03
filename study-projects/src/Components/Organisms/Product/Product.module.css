@@ -1,7 +1,7 @@
 .sessionContainer {
-    background-color: #eafaf1;
+    background-color: var(--color-background-primary-light);
     border-bottom-width: 1px;
-    border: 0 solid #d6dae5;
+    border: 0 solid var(--color-border-light);
 }
 
 .titlesContainer {

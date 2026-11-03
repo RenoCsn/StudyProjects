@@ -53,17 +53,17 @@
 }
 
 .primary {
-    color: #00ad6a;
+    color: var(--color-brand-primary);
 }
 
 .textPrimary {
-    color: #464951;
+    color: var(--color-text-primary);
 }
 
 .textSecondary {
-    color: #080c16;
+    color: var(--color-text-secondary);
 }
 
 .background {
-    color: #1fe374;
+    color: var(--color-brand-light);
 }

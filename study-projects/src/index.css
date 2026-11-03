@@ -1,3 +1,19 @@
+:root {
+  --color-brand-primary: #00ad6a;
+  --color-brand-light: #1fe374;
+  --color-brand-dark: #062c27;
+  --color-text-primary: #464951;
+  --color-text-secondary: #080c16;
+  --color-background-primary-light: #eafaf1;
+  --color-background-secondary-light: #fcfcfc;
+  --color-copyright-light: #a9aaae;
+  --color-copyright-dark: #83858a;
+  --color-border-light: #d6dae5;
+  --color-background-premium: #f2f3f3;
+  --color-gradient-secondary: #23ea76;
+  --color-white: #fff;
+}
+
 *,
 *::before,
 *::after {

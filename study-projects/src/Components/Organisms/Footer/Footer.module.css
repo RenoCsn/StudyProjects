@@ -1,5 +1,5 @@
 .footerContainer {
-    background-color: #080c16
+    background-color: var(--color-text-secondary)
 }
 
 .siteMapContainer {
@@ -58,7 +58,7 @@
 
 .menuName {
     margin-bottom: 1rem;
-    color: #fff;
+    color: var(--color-white);
     font-weight: 700;
 }
 
@@ -72,12 +72,12 @@
 
 .menuLink {
     text-decoration: none;
-    color: #1fe374;
+    color: var(--color-brand-light);
     font-weight: 400;
 }
 
 .menuLink:hover {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .copyright {
@@ -92,7 +92,7 @@
 
 .copyrightContainer {
     font-size: .75rem;
-    color: #83858a;
+    color: var(--color-copyright-dark);
 }
 
 .copyrightInsideContainer {
@@ -101,10 +101,10 @@
 
 .copyrightLink {
     font-weight: 400;
-    color: #83858a;
+    color: var(--color-copyright-dark);
     text-decoration: underline;
 }
 
 .copyrightLink:hover {
-    color: #a9aaae;
+    color: var(--color-copyright-light);
 }
