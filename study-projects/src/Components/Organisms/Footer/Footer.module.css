@@ -1,0 +1,110 @@
+.footerContainer {
+    background-color: #080c16
+}
+
+.siteMapContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+
+.outsideContainer {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+.insideContainer {
+    display: flex;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.ctaContainer {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.logoContainer {
+    margin-bottom: 3rem;
+    font-size: 1.125rem;
+}
+
+.logoImg {
+    width: 10rem;
+    height: auto;
+    max-width: 100%;
+}
+
+.siteMap {
+    width: 50%;
+    font-size: 1.125rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuList {
+    width: 33.33333%;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    list-style: none;
+    margin: 0;
+}
+
+.menuName {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.menuItem {
+    margin-bottom: 1rem;
+}
+
+.menuItem:last-child {
+    margin-bottom: 0;
+}
+
+.menuLink {
+    text-decoration: none;
+    color: #1fe374;
+    font-weight: 400;
+}
+
+.menuLink:hover {
+    color: #fff;
+}
+
+.copyright {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.copyrightContainer {
+    font-size: .75rem;
+    color: #83858a;
+}
+
+.copyrightInsideContainer {
+    display: block;
+}
+
+.copyrightLink {
+    font-weight: 400;
+    color: #83858a;
+    text-decoration: underline;
+}
+
+.copyrightLink:hover {
+    color: #a9aaae;
+}
