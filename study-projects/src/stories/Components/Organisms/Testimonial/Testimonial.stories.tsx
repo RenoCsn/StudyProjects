@@ -1,6 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { TestimonialComponent } from '../../../../Components/Organisms/Testimonial'
+
 import logoImg from '../../../../assets/subvert-avatar.webp'
+import { testimonialTexts } from '../../../../content'
 
 const meta = {
   title: 'Organisms/Testimonial',
@@ -15,8 +17,7 @@ type Story = StoryObj<typeof meta>
 export const Default: Story = {
   args: {
     img: logoImg,
-    testimonialText:
-      '“Pulse is worth every penny because it empowers business owners with critical financial insight and knowledge.”',
-    brandName: 'Subvert Marketing, Inc.',
+    testimonialText: testimonialTexts.testimonialText,
+    brandName: testimonialTexts.brandName,
   },
 }

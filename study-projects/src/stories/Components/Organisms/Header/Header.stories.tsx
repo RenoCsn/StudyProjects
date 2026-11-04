@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { HeaderComponent } from '../../../../Components/Organisms/Header'
 import logoImg from '../../../../assets/pulse-logo.svg'
+import { headerTexts } from '../../../../content'
 
 const meta = {
   title: 'Organisms/Header',
@@ -18,5 +19,7 @@ export const Default: Story = {
       url: '#',
       img: logoImg,
     },
+    items: headerTexts.items,
+    signUp: headerTexts.signUp,
   },
 }

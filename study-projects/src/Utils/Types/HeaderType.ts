@@ -3,11 +3,12 @@ export type Logo = {
   img?: string
 }
 
+export type NavItem = {
+  label: string
+  href: string
+}
 export type HeaderType = {
   logo?: Logo
-  features?: string
-  customer?: string
-  pricing?: string
-  blog?: string
-  signUp?: string
+  items?: NavItem[]
+  signUp?: NavItem
 }

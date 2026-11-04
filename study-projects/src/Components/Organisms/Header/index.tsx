@@ -5,11 +5,8 @@ import styles from './Header.module.css'
 
 export const HeaderComponent: React.FC<HeaderType> = ({
   logo,
-  features = '',
-  customer = '',
-  pricing = '',
-  blog = '',
-  signUp = '',
+  items = [],
+  signUp,
 }) => {
   const activeClassCombined = [styles.navActions, styles.navActionsActive]
     .filter(Boolean)
@@ -22,37 +19,33 @@ export const HeaderComponent: React.FC<HeaderType> = ({
             <img src={logo?.img} alt='Logo' />
           </a>
           <ul className={styles.navList}>
-            <li className={styles.navButtons}>
-              <a className={styles.navActions} href={features}>
-                Features
-              </a>
-            </li>
-            <li className={styles.navButtons}>
-              <a className={styles.navActions} href={customer}>
-                Customer Stories
-              </a>
-            </li>
-            <li className={styles.navButtons}>
-              <a className={activeClassCombined} href={pricing}>
-                Pricing
-              </a>
-            </li>
-            <li className={styles.navButtons}>
-              <a className={styles.navActions} href={blog}>
-                Blog
-              </a>
-            </li>
-            <li className={styles.navButtons}>
-              <a href={signUp}>
-                <ButtonComponent
-                  variant='outlined'
-                  animationStyle='offset'
-                  isAnimated
+            {items.map((item) => (
+              <li key={item.href} className={styles.navButtons}>
+                <a
+                  href={item.href}
+                  className={
+                    item.label === 'Pricing'
+                      ? activeClassCombined
+                      : styles.navActions
+                  }
                 >
-                  Sign Up
-                </ButtonComponent>
-              </a>
-            </li>
+                  {item.label}
+                </a>
+              </li>
+            ))}
+            {signUp && (
+              <li className={styles.navButtons}>
+                <a href={signUp.href}>
+                  <ButtonComponent
+                    variant='outlined'
+                    animationStyle='offset'
+                    isAnimated
+                  >
+                    {signUp.label}
+                  </ButtonComponent>
+                </a>
+              </li>
+            )}
           </ul>
         </nav>
       </div>

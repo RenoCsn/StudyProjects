@@ -4,5 +4,6 @@ export type FaqItemType = {
 }
 
 export type FaqType = {
+  title?: string
   faqItens?: FaqItemType[]
 }
