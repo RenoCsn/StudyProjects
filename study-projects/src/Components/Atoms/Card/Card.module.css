@@ -1,13 +1,12 @@
 .cardFree {
-    text-align: center;
     height: 100%;
     width: 33.33333%;
     padding: 2rem;
     display: flex;
+    flex-direction: column;
 }
 
 .card {
-    text-align: center;
     height: 100%;
     width: 33.33333%;
     display: flex;
