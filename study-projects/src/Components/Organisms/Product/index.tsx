@@ -16,11 +16,13 @@ export const ProductComponent: React.FC<ProductType> = ({
     <div className={styles.sessionContainer}>
       <div className={styles.titlesContainer}>
         <div className={styles.titles}>
-          <TypographyComponent
-            children={title}
-            variant='h1'
-            color='textSecondary'
-          />
+          <>
+            <h1 className={styles.titleStyle}>
+              {title?.lineOne}
+              <br className={styles.titleBreakLine} />
+              {title?.lineTwo}
+            </h1>
+          </>
           <TypographyComponent
             children={subtitle}
             variant='p'

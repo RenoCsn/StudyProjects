@@ -1,3 +1,10 @@
+.freeContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+
 .freeCardList {
     font-size: 1rem;
     margin-left: 2rem;

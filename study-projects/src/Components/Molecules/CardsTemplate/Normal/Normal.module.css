@@ -22,7 +22,6 @@
 
 .normalCardList {
     font-size: 1rem;
-    margin-left: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
     list-style-type: none;
@@ -44,6 +43,7 @@
     position: relative;
     padding-bottom: .5rem;
     padding-top: .5rem;
+    letter-spacing: -.5px;
 }
 
 @media (max-width: 1023px) {
@@ -63,6 +63,10 @@
 @media (min-width: 1024px) {
     .normalCtaContainer {
         text-align: center;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1.5rem;
     }
 
     .normalCtaTitle {
@@ -73,10 +77,6 @@
 
     .normalCtaPriceContainer {
         margin-bottom: 1.5rem;
-    }
-
-    .normalCardList {
-        margin-left: 1rem;
     }
 }
 

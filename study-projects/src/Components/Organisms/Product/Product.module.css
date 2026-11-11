@@ -19,7 +19,32 @@
     width: 100%;
     max-width: 600px;
     text-align: center;
+}
 
+.titleStyle {
+    letter-spacing: -2px;
+    font-size: 3.75rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    color: var(--color-text-secondary);
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .titleStyle {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.titleBreakLine {
+    display: hidden;
+}
+
+@media (min-width: 768px) {
+    .titleBreakLine {
+        display: inline-block;
+    }
 }
 
 .productsContainer {

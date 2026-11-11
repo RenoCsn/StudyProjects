@@ -1,9 +1,12 @@
+.premiumCtaTitle {
+    font-weight: 400;
+}
+
 .premiumCtaPriceContainer {
     margin-bottom: .5rem;
     margin-top: .5rem;
     color: var(--color-copyright-dark);
     letter-spacing: -.5px;
-
 }
 
 .premiumCtaBtnContainer {
@@ -18,7 +21,6 @@
     letter-spacing: 1px;
     font-size: .75rem;
 }
-
 
 .premiumCardList {
     font-size: 1rem;
@@ -63,6 +65,8 @@
 @media (min-width: 1024px) {
     .premiumCtaContainer {
         text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .premiumCtaTitle {

@@ -17,7 +17,7 @@ export const faqTexts = {
     {
       question: 'What is a “Financial Account”?',
       answer:
-        'Financial Accounts are a grouping of income and expense items that can be used for tracking or reporting purposes.They’re designed to be flexible and can be used to differentiate between bank accounts, companies, individuals or between personal and business entries.',
+        'Financial Accounts are a grouping of income and expense items that can be used for tracking or reporting purposes. They’re designed to be flexible and can be used to differentiate between bank accounts, companies, individuals or between personal and business entries.',
     },
     {
       question: 'Do I have to commit to a long-term contract?',

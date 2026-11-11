@@ -123,7 +123,7 @@ export const FooterComponent: React.FC<FooterType> = ({
             >
               Sifter
             </a>
-            , and
+            , and{' '}
             <a
               href='https://curated.co'
               target='_blank'

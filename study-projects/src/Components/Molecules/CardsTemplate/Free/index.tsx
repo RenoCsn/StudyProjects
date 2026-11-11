@@ -3,7 +3,7 @@ import styles from './Free.module.css'
 
 export const FreeCard = () => {
   return (
-    <>
+    <div className={styles.freeContainer}>
       <TypographyComponent
         children={
           'These are what we call the Pulse Basics. They’re what every customer gets.'
@@ -39,6 +39,6 @@ export const FreeCard = () => {
         </a>{' '}
         for $29 per month.
       </p>
-    </>
+    </div>
   )
 }

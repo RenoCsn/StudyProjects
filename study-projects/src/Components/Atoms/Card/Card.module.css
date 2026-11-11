@@ -12,6 +12,12 @@
     display: flex;
 }
 
+@media (min-width: 1024px) {
+    .card .cardFree {
+        padding: 2rem;
+    }
+}
+
 .normalCard {
     border: 1px solid var(--color-brand-primary);
     background-color: var(--color-white);
@@ -50,4 +56,5 @@
     padding-bottom: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    text-align: center;
 }

@@ -7,7 +7,7 @@ export const footerTexts = {
     menuItems: [
       { text: 'Features', url: 'https://pulseapp.com/features' },
       { text: 'Pricing', url: 'https://pulseapp.com/pricing' },
-      { text: 'Sign-Up', url: 'https://signup.pulseapp.com/' },
+      { text: 'Sign Up', url: 'https://signup.pulseapp.com/' },
     ],
   },
   menuSecondColumn: {

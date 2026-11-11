@@ -33,7 +33,7 @@
     list-style: none;
 }
 
-.navButtons {
+.navButtons:not(:last-child) {
     margin-right: 2.5rem;
 }
 
