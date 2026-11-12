@@ -11,7 +11,8 @@ STORYBOOK_PID := .storybook.pid
 STORYBOOK_LOG := storybook.log
 
 .PHONY: install dev dev-start dev-stop dev-status dev-logs \
-	storybook-start storybook-stop storybook-status storybook-logs storybook-stop-port
+	storybook-start storybook-stop storybook-status storybook-logs storybook-stop-port \
+	test test-watch test-snapshots test-update test-screenshots test-screenshots-update
 
 install:
 	npm install
@@ -96,3 +97,21 @@ storybook-logs:
 storybook-stop-port:
 	@echo "Killing process on port $(STORYBOOK_PORT)..."
 	@npx --yes kill-port $(STORYBOOK_PORT)
+
+test:
+	npm run test
+
+test-watch:
+	npm run test:watch
+
+test-snapshots:
+	npm run test:snapshots
+
+test-update:
+	npm run test:update
+
+test-screenshots:
+	npm run test:screenshots
+
+test-screenshots-update:
+	npm run test:screenshots:update

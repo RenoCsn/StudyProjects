@@ -45,6 +45,41 @@ export default defineConfig({
           },
         },
       },
+      {
+        // DOM snapshots for the dev page and for stories reused outside Storybook.
+        // This project stays in jsdom so it does not need a browser binary.
+        extends: true,
+        test: {
+          name: 'snapshots',
+          environment: 'jsdom',
+          setupFiles: ['./src/test/setup.ts'],
+          include: ['src/**/*.snapshot.test.tsx'],
+        },
+      },
+      {
+        extends: true,
+        test: {
+          name: 'screenshots',
+          include: ['src/**/*.screenshots.test.tsx'],
+          browser: {
+            enabled: true,
+            headless: true,
+            provider: playwright(),
+            expect: {
+              toMatchScreenshot: {
+                comparatorName: 'pixelmatch',
+                comparatorOptions: {
+                  threshold: 0.2,
+                  allowedMismatchedPixelRatio: 0.01,
+                },
+              },
+            },
+            instances: [
+              { browser: 'chromium', viewport: { width: 1280, height: 720 } },
+            ],
+          },
+        },
+      },
     ],
   },
 })

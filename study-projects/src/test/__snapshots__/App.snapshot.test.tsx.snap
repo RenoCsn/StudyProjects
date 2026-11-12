@@ -1,0 +1,684 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`dev page matches snapshot 1`] = `
+<div>
+  <header
+    class="_header_5ec4db"
+  >
+    <div
+      class="_headerContainer_5ec4db"
+    >
+      <nav
+        class="_nav_5ec4db"
+      >
+        <a
+          class="_navLink_5ec4db"
+          href="/"
+        >
+          <img
+            alt="Logo"
+            src="/src/assets/pulse-logo.svg"
+          />
+        </a>
+        <ul
+          class="_navList_5ec4db"
+        >
+          <li
+            class="_navButtons_5ec4db"
+          >
+            <a
+              class="_navActions_5ec4db"
+              href="/features"
+            >
+              Features
+            </a>
+          </li>
+          <li
+            class="_navButtons_5ec4db"
+          >
+            <a
+              class="_navActions_5ec4db"
+              href="/customers"
+            >
+              Customer Stories
+            </a>
+          </li>
+          <li
+            class="_navButtons_5ec4db"
+          >
+            <a
+              class="_navActions_5ec4db _navActionsActive_5ec4db"
+              href="/pricing"
+            >
+              Pricing
+            </a>
+          </li>
+          <li
+            class="_navButtons_5ec4db"
+          >
+            <a
+              class="_navActions_5ec4db"
+              href="/blog"
+            >
+              Blog
+            </a>
+          </li>
+          <li
+            class="_navButtons_5ec4db"
+          >
+            <a
+              href="/signup"
+            >
+              <button
+                class="_resetButton_e76258 _baseBtn_e76258 _offset_e76258 _outlined_e76258"
+              >
+                Sign Up
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div
+    style="border-bottom: 1px var(--color-border-light) solid; background-color: var(--color-background-primary-light);"
+  >
+    <div
+      class="_sessionContainer_dc2575"
+    >
+      <div
+        class="_titlesContainer_dc2575"
+      >
+        <div
+          class="_titles_dc2575"
+        >
+          <h1
+            class="_titleStyle_dc2575"
+          >
+            Try Pulse free for
+            <br
+              class="_titleBreakLine_dc2575"
+            />
+            30 days.
+          </h1>
+          <p
+            class="_p_f87b8c _textSecondary_f87b8c"
+          >
+            See why Pulse is the best way to monitor your cash flow. Sign up for any plan and try Pulse absolutely free for 30 days.
+          </p>
+        </div>
+      </div>
+      <div
+        class="_productsContainer_dc2575"
+      >
+        <div
+          class="_cards_dc2575"
+        >
+          <div
+            class="_cardFree_106a36"
+          >
+            <div
+              class="_freeContainer_db8853"
+            >
+              <h5
+                class="_h5_f87b8c _primary_f87b8c"
+              >
+                These are what we call the Pulse Basics. They’re what every customer gets.
+              </h5>
+              <ul
+                class="_freeCardList_db8853"
+              >
+                <li
+                  class="_freeCardItem_db8853"
+                >
+                  Manage cash flow on a daily, weekly, monthly, or yearly basis
+                </li>
+                <li
+                  class="_freeCardItem_db8853"
+                >
+                  Forecast growth with recurring income or expenses that scale automatically
+                </li>
+                <li
+                  class="_freeCardItem_db8853"
+                >
+                  Works with any currency
+                </li>
+                <li
+                  class="_freeCardItem_db8853"
+                >
+                  See Money In and Money Out, categorize transactions, and run helpful reports
+                </li>
+                <li
+                  class="_freeCardItem_db8853"
+                >
+                  Toggle entries and accounts on and off to game out different scenarios
+                </li>
+              </ul>
+              <p
+                class="_cardOffer_db8853"
+              >
+                Just need the Pulse Basics?
+                <br />
+                <a
+                  class="_freeCardOfferLink_db8853"
+                  href="https://create.pulseapp.com/signup/"
+                >
+                  Get them now
+                </a>
+                 
+                for $29 per month.
+              </p>
+            </div>
+          </div>
+          <div
+            class="_card_106a36"
+          >
+            <div
+              class="_normalCard_106a36"
+            >
+              <div
+                class="_recommended_106a36"
+              >
+                <p>
+                  RECOMMENDED
+                </p>
+              </div>
+              <div
+                class="_normalCtaContainer_a2aca6"
+              >
+                <div>
+                  <div
+                    class="_normalCtaTitle_a2aca6"
+                  >
+                    <h2
+                      class="_h2_f87b8c _primary_f87b8c"
+                    >
+                      Small Business Plan
+                    </h2>
+                  </div>
+                  <div
+                    class="_normalCtaPriceContainer_a2aca6"
+                  >
+                    <h4
+                      class="_h4_f87b8c _inherit_f87b8c"
+                    >
+                      $59 per month
+                    </h4>
+                  </div>
+                  <div
+                    class="_normalCtaBtnContainer_a2aca6"
+                  >
+                    <button
+                      class="_resetButton_e76258 _baseBtn_e76258 _expand_e76258 _primary_e76258"
+                    >
+                      Sign Up Now
+                    </button>
+                  </div>
+                  <div
+                    class="_normalCtaBenefits_a2aca6"
+                  >
+                    You get Pulse Basics, plus:
+                  </div>
+                </div>
+                <ul
+                  class="_normalCardList_a2aca6"
+                >
+                  <li
+                    class="_normalCardItem_a2aca6"
+                  >
+                    Manage cash flow across multiple financial accounts
+                  </li>
+                  <li
+                    class="_normalCardItem_a2aca6"
+                  >
+                    Invite your investors, book keeper, or management team to see reports or manage cash flow
+                  </li>
+                  <li
+                    class="_normalCardItem_a2aca6"
+                  >
+                    Integrate with QuickBooks Online for more accurate cash flow
+                  </li>
+                  <li
+                    class="_normalCardItem_a2aca6"
+                  >
+                    Track your actual cash flow alongside your projected cash flow
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="_card_106a36"
+          >
+            <div
+              class="_premiumCard_106a36"
+            >
+              <div
+                class="_premiumCardTitle_106a36"
+              >
+                Complex business with multiple financial accounts, currencies, or auditing needs?
+              </div>
+              <div
+                class="_premiumCtaContainer_ef17a5"
+              >
+                <div>
+                  <div
+                    class="_premiumCtaTitle_ef17a5"
+                  >
+                    <h3
+                      class="_h3_f87b8c _primary_f87b8c"
+                    >
+                      Unlock Extra Features
+                    </h3>
+                  </div>
+                  <div
+                    class="_premiumCtaPriceContainer_ef17a5"
+                  >
+                    <h4
+                      class="_h4_f87b8c _inherit_f87b8c"
+                    >
+                      $89 per month
+                    </h4>
+                  </div>
+                  <div
+                    class="_premiumCtaBtnContainer_ef17a5"
+                  >
+                    <button
+                      class="_resetButton_e76258 _baseBtn_e76258 _expand_e76258 _primary_e76258"
+                    >
+                      Try Premium
+                    </button>
+                  </div>
+                  <div
+                    class="_premiumCtaBenefits_ef17a5"
+                  >
+                    Get it all, plus:
+                  </div>
+                </div>
+                <ul
+                  class="_premiumCardList_ef17a5"
+                >
+                  <li
+                    class="_premiumCardItem_ef17a5"
+                  >
+                    Manage cash flow across unlimited financial accounts
+                  </li>
+                  <li
+                    class="_premiumCardItem_ef17a5"
+                  >
+                    Convert to any currency for localized cash flow reporting and projections
+                  </li>
+                  <li
+                    class="_premiumCardItem_ef17a5"
+                  >
+                    Attach invoices or contracts to your cash flow entries for accountability and auditing
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="_testimonialContainer_cfcddc"
+    >
+      <div
+        class="_centralContainer_cfcddc"
+      >
+        <img
+          alt=""
+          class="_testimonialImg_cfcddc"
+          src="/src/assets/subvert-avatar.webp"
+        />
+        <div
+          class="_testimonialTextContainer_cfcddc"
+        >
+          <h4
+            class="_h4_f87b8c _textSecondary_f87b8c"
+          >
+            “Pulse is worth every penny because it empowers business owners with critical financial insight and knowledge.”
+          </h4>
+        </div>
+        <div
+          class="_brandName_cfcddc"
+        >
+          Subvert Marketing, Inc.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="_faqContainer_94c6e1"
+  >
+    <div
+      class="_title_94c6e1"
+    >
+      <h2
+        class="_h2_f87b8c _textSecondary_f87b8c"
+      >
+        FAQ
+      </h2>
+    </div>
+    <div
+      class="_faqItems_94c6e1"
+    >
+      <div
+        class="_faqItem_94c6e1"
+      >
+        <h5
+          class="_h5_f87b8c _textSecondary_f87b8c"
+        >
+          How does the 30-day free trial work?
+        </h5>
+        <p
+          class="_p_f87b8c _textPrimary_f87b8c"
+        >
+          You can use Pulse absolutely free for 30 days. After 30 days, we will charge the credit card you used when you sign up. If you choose to cancel your account before your trial ends, your card will not be charged.
+        </p>
+      </div>
+      <div
+        class="_faqItem_94c6e1"
+      >
+        <h5
+          class="_h5_f87b8c _textSecondary_f87b8c"
+        >
+          If I upgrade an existing account, do I get another free trial?
+        </h5>
+        <p
+          class="_p_f87b8c _textPrimary_f87b8c"
+        >
+          Brand new accounts are the only ones eligible for a 30-day free trial. If you upgrade an existing account, your credit card will be billed the new amount on the date of your next billing cycle.
+        </p>
+      </div>
+      <div
+        class="_faqItem_94c6e1"
+      >
+        <h5
+          class="_h5_f87b8c _textSecondary_f87b8c"
+        >
+          What is a “Financial Account”?
+        </h5>
+        <p
+          class="_p_f87b8c _textPrimary_f87b8c"
+        >
+          Financial Accounts are a grouping of income and expense items that can be used for tracking or reporting purposes. They’re designed to be flexible and can be used to differentiate between bank accounts, companies, individuals or between personal and business entries.
+        </p>
+      </div>
+      <div
+        class="_faqItem_94c6e1"
+      >
+        <h5
+          class="_h5_f87b8c _textSecondary_f87b8c"
+        >
+          Do I have to commit to a long-term contract?
+        </h5>
+        <p
+          class="_p_f87b8c _textPrimary_f87b8c"
+        >
+          No. There is no contract when you use Pulse, other than agreeing to our Terms of Service.
+        </p>
+      </div>
+      <div
+        class="_faqItem_94c6e1"
+      >
+        <h5
+          class="_h5_f87b8c _textSecondary_f87b8c"
+        >
+          Will I be able to cancel my account if I don’t use Pulse?
+        </h5>
+        <p
+          class="_p_f87b8c _textPrimary_f87b8c"
+        >
+          Yes – you can cancel your account at any time. To cancel your account, go to your billing page and click on “Please cancel my account” at the bottom of the page. The account owner is the only one who can cancel an account. An email request to delete an account is not considered cancellation.
+        </p>
+      </div>
+      <div
+        class="_faqItem_94c6e1"
+      >
+        <h5
+          class="_h5_f87b8c _textSecondary_f87b8c"
+        >
+          What types of payments do you accept?
+        </h5>
+        <p
+          class="_p_f87b8c _textPrimary_f87b8c"
+        >
+          We accept payments made online using Visa, Mastercard, Discover, and American Express.
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="_footerContainer_ca85cc"
+  >
+    <div
+      class="_siteMapContainer_ca85cc"
+    >
+      <div
+        class="_outsideContainer_ca85cc"
+      >
+        <div
+          class="_insideContainer_ca85cc"
+        >
+          <div
+            class="_ctaContainer_ca85cc"
+          >
+            <p
+              class="_logoContainer_ca85cc"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  alt="Logo"
+                  class="_logoImg_ca85cc"
+                  src="/src/assets/pulse-logo.svg"
+                />
+              </a>
+            </p>
+            <p>
+              <button
+                class="_resetButton_e76258 _baseBtn_e76258 _offset_e76258 _gradient_e76258"
+              >
+                Sign Up for a Free 30-Day Trial
+              </button>
+            </p>
+          </div>
+          <div
+            class="_siteMap_ca85cc"
+          >
+            <ul
+              class="_menuList_ca85cc"
+            >
+              <li
+                class="_menuName_ca85cc"
+              >
+                Product
+              </li>
+              <li
+                class="_menuItem_ca85cc"
+              >
+                <a
+                  class="_menuLink_ca85cc"
+                  href="https://pulseapp.com/features"
+                >
+                  Features
+                </a>
+              </li>
+              <li
+                class="_menuItem_ca85cc"
+              >
+                <a
+                  class="_menuLink_ca85cc"
+                  href="https://pulseapp.com/pricing"
+                >
+                  Pricing
+                </a>
+              </li>
+              <li
+                class="_menuItem_ca85cc"
+              >
+                <a
+                  class="_menuLink_ca85cc"
+                  href="https://signup.pulseapp.com/"
+                >
+                  Sign Up
+                </a>
+              </li>
+            </ul>
+            <ul
+              class="_menuList_ca85cc"
+            >
+              <li
+                class="_menuName_ca85cc"
+              >
+                Company
+              </li>
+              <li
+                class="_menuItem_ca85cc"
+              >
+                <a
+                  class="_menuLink_ca85cc"
+                  href="https://pulseapp.com/customer-stories"
+                >
+                  Customer Stories
+                </a>
+              </li>
+              <li
+                class="_menuItem_ca85cc"
+              >
+                <a
+                  class="_menuLink_ca85cc"
+                  href="https://pulseapp.com/about"
+                >
+                  About
+                </a>
+              </li>
+              <li
+                class="_menuItem_ca85cc"
+              >
+                <a
+                  class="_menuLink_ca85cc"
+                  href="https://pulseapp.com/pricing#"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <ul
+              class="_menuList_ca85cc"
+            >
+              <li
+                class="_menuName_ca85cc"
+              >
+                Resources
+              </li>
+              <li
+                class="_menuItem_ca85cc"
+              >
+                <a
+                  class="_menuLink_ca85cc"
+                  href="https://help.pulseapp.com/"
+                >
+                  Support
+                </a>
+              </li>
+              <li
+                class="_menuItem_ca85cc"
+              >
+                <a
+                  class="_menuLink_ca85cc"
+                  href="https://pulseapp.com/blog"
+                >
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="_copyright_ca85cc"
+    >
+      <div
+        class="_copyrightContainer_ca85cc"
+      >
+        <div
+          class="_copyrightInsideContainer_ca85cc"
+        >
+          ©2019 Pulseapp.com, Inc. All Rights Reserved |
+           
+          <a
+            class="_copyrightLink_ca85cc"
+            href="https://pulseapp.com/terms"
+          >
+            Terms of Use
+          </a>
+           
+          |
+           
+          <a
+            class="_copyrightLink_ca85cc"
+            href="https://pulseapp.com/privacy"
+          >
+            Privacy Policy
+          </a>
+           
+          |
+           
+          <a
+            class="_copyrightLink_ca85cc"
+            href="https://pulseapp.com/eu-privacy"
+          >
+            EU Privacy
+          </a>
+          <br />
+          Pulse is made by
+           
+          <a
+            class="_copyrightLink_ca85cc"
+            href="https://simplefocus.com"
+            rel="noopener"
+            target="_blank"
+          >
+            Simple Focus
+          </a>
+          . We also make
+           
+          <a
+            class="_copyrightLink_ca85cc"
+            href="https://getballpark.com"
+            rel="noopener"
+            target="_blank"
+          >
+            Ballpark
+          </a>
+          ,
+           
+          <a
+            class="_copyrightLink_ca85cc"
+            href="https://sifterapp.com"
+            rel="noopener"
+            target="_blank"
+          >
+            Sifter
+          </a>
+          , and
+           
+          <a
+            class="_copyrightLink_ca85cc"
+            href="https://curated.co"
+            rel="noopener"
+            target="_blank"
+          >
+            Curated
+          </a>
+          .
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
