@@ -15,21 +15,19 @@
 }
 
 .insideContainer {
-    display: flex;
     margin-left: -1rem;
     margin-right: -1rem;
 }
 
 .ctaContainer {
-    width: 50%;
-    text-align: left;
-    margin-bottom: 0;
+    text-align: center;
+    margin-bottom: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 .logoContainer {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     font-size: 1.125rem;
 }
 
@@ -40,7 +38,6 @@
 }
 
 .siteMap {
-    width: 50%;
     font-size: 1.125rem;
     display: flex;
     flex-wrap: wrap;
@@ -57,13 +54,13 @@
 }
 
 .menuName {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     color: var(--color-white);
     font-weight: 700;
 }
 
 .menuItem {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .menuItem:last-child {
@@ -107,4 +104,44 @@
 
 .copyrightLink:hover {
     color: var(--color-copyright-light);
+}
+
+@media (min-width: 768px) {
+    .ctaContainer {
+        margin-bottom: 3rem;
+    }
+
+    .menuList {
+        width: 33.33333%;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .insideContainer {
+        display: flex;
+    }
+
+    .ctaContainer {
+        margin-bottom: 0;
+        text-align: left;
+        width: 50%;
+    }
+
+    .logoContainer {
+        margin-bottom: 3rem;
+    }
+
+    .siteMap {
+        width: 50%;
+    }
+
+    .menuName {
+        margin-bottom: 1rem;
+    }
+
+    .menuItem {
+        margin-bottom: 1rem;
+    }
 }
