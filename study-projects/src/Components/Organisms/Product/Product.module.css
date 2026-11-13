@@ -1,24 +1,14 @@
-.sessionContainer {
-    background-color: var(--color-background-primary-light);
-    border-bottom-width: 1px;
-    border: 0 solid var(--color-border-light);
-}
-
 .titlesContainer {
-    display: flex;
-    justify-content: center;
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 1.5rem;
     width: 100%;
-    margin-bottom: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
 }
 
 .titles {
     width: 100%;
-    max-width: 600px;
-    text-align: center;
+
 }
 
 .titleStyle {
@@ -30,21 +20,8 @@
     font-weight: 700;
 }
 
-@media (max-width: 767px) {
-    .titleStyle {
-        font-size: 3rem;
-        margin-bottom: 3rem;
-    }
-}
-
 .titleBreakLine {
-    display: hidden;
-}
-
-@media (min-width: 768px) {
-    .titleBreakLine {
-        display: inline-block;
-    }
+    display: none;
 }
 
 .productsContainer {
@@ -55,8 +32,41 @@
 }
 
 .cards {
-    display: flex;
     margin-left: -1rem;
     margin-right: -1rem;
     align-items: center;
+}
+
+@media (max-width: 767px) {
+    .titleStyle {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .titles {
+        max-width: 600px;
+    }
+
+    .titleBreakLine {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .titlesContainer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .titles {
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+    }
 }

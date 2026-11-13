@@ -5,30 +5,32 @@ import styles from './Premium.module.css'
 export const PremiumCard = () => {
   return (
     <div className={styles.premiumCtaContainer}>
-      <div>
-        <div className={styles.premiumCtaTitle}>
-          <TypographyComponent
-            children={'Unlock Extra Features'}
-            color='primary'
-            variant='h3'
-          />
+      <div className={styles.premiumCtaTitleContainer}>
+        <div>
+          <div className={styles.premiumCtaTitle}>
+            <TypographyComponent
+              children={'Unlock Extra Features'}
+              color='primary'
+              variant='h3'
+            />
+          </div>
+          <div className={styles.premiumCtaPriceContainer}>
+            <TypographyComponent
+              children={'$89 per month'}
+              variant='h4'
+              color='inherit'
+            />
+          </div>
+          <div className={styles.premiumCtaBtnContainer}>
+            <ButtonComponent
+              children={'Try Premium'}
+              variant='primary'
+              isAnimated
+              animationStyle='expand'
+            />
+          </div>
+          <div className={styles.premiumCtaBenefits}>Get it all, plus:</div>
         </div>
-        <div className={styles.premiumCtaPriceContainer}>
-          <TypographyComponent
-            children={'$89 per month'}
-            variant='h4'
-            color='inherit'
-          />
-        </div>
-        <div className={styles.premiumCtaBtnContainer}>
-          <ButtonComponent
-            children={'Try Premium'}
-            variant='primary'
-            isAnimated
-            animationStyle='expand'
-          />
-        </div>
-        <div className={styles.premiumCtaBenefits}>Get it all, plus:</div>
       </div>
 
       <ul className={styles.premiumCardList}>
@@ -44,6 +46,14 @@ export const PremiumCard = () => {
           accountability and auditing
         </li>
       </ul>
+
+      <div className={styles.mobileCtaBtnContainer}>
+        <ButtonComponent
+          children={'Try Premium'}
+          variant='primary'
+          style={{ width: '100%' }}
+        />
+      </div>
     </div>
   )
 }

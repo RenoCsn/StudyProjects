@@ -2,7 +2,7 @@ import type { ProductType } from '../Utils/Types/ProductType'
 
 export const productTexts = {
   title: {
-    lineOne: 'Try Pulse free for',
+    lineOne: 'Try Pulse free for ',
     lineTwo: '30 days.',
   },
   subtitle:

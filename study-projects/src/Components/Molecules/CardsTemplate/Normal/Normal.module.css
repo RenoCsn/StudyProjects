@@ -3,12 +3,12 @@
     margin-top: .5rem;
     color: var(--color-copyright-dark);
     letter-spacing: -.5px;
-
 }
 
 .normalCtaBtnContainer {
     margin-top: auto;
     margin-bottom: 2rem;
+    display: none;
 }
 
 .normalCtaBenefits {
@@ -46,17 +46,49 @@
     letter-spacing: -.5px;
 }
 
+.mobileCtaBtnContainer {
+    display: block;
+    padding-top: 1rem;
+}
+
+@media (min-width: 320px) {
+    .normalCtaTitle {
+        display: inline-block;
+    }
+
+    .normalCtaPriceContainer {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 480px) {
+    .normalCtaPriceContainer {
+        padding-left: .5rem;
+    }
+}
+
 @media (max-width: 1023px) {
-    .normalCtaContainer {
+
+    .normalCtaTitleContainer {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+    }
 
+    .normalCtaContainer {
+        display: flex;
+        flex-direction: column;
         padding: 1rem;
         justify-content: space-between;
     }
 
     .normalCtaBenefits {
         margin-top: 2rem;
+    }
+
+    .normalCardList {
+        line-height: 1.15;
+        padding-left: 1rem;
     }
 }
 
@@ -73,15 +105,19 @@
         padding-left: 1rem;
         padding-right: 1rem;
         margin-top: 1rem;
+        display: block;
     }
 
     .normalCtaPriceContainer {
         margin-bottom: 1.5rem;
+        display: block;
     }
-}
 
-@media (min-width: 480px) {
-    .normalCtaPriceContainer {
-        padding-left: .5rem;
+    .normalCtaBtnContainer {
+        display: block;
+    }
+
+    .mobileCtaBtnContainer {
+        display: none;
     }
 }

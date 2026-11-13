@@ -13,7 +13,8 @@ export const ProductComponent: React.FC<ProductType> = ({
   premiumCard,
 }) => {
   return (
-    <div className={styles.sessionContainer}>
+    // <div className={styles.sessionContainer}>
+    <>
       <div className={styles.titlesContainer}>
         <div className={styles.titles}>
           <>
@@ -37,6 +38,7 @@ export const ProductComponent: React.FC<ProductType> = ({
           <CardComponent variant='premium' children={premiumCard} />
         </div>
       </div>
-    </div>
+    </>
+    // </div>
   )
 }
