@@ -29,6 +29,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: var(--color-text-primary);
 }
 
 input,

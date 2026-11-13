@@ -25,7 +25,7 @@ export const FooterComponent: React.FC<FooterType> = ({
                   <img src={logo?.img} alt='Logo' className={styles.logoImg} />
                 </a>
               </p>
-              <p>
+              <p className={styles.ctaBtnContainer}>
                 <ButtonComponent
                   children={btnText}
                   animationStyle='offset'
