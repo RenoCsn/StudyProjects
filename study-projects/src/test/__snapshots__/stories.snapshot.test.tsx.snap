@@ -247,38 +247,42 @@ exports[`Components/Molecules/CardsTemplate/Normal/Normal > Default matches snap
       <div
         class="_normalCtaContainer_a2aca6"
       >
-        <div>
-          <div
-            class="_normalCtaTitle_a2aca6"
-          >
-            <h2
-              class="_h2_f87b8c _primary_f87b8c"
+        <div
+          class="_normalCtaTitleContainer_a2aca6"
+        >
+          <div>
+            <div
+              class="_normalCtaTitle_a2aca6"
             >
-              Small Business Plan
-            </h2>
-          </div>
-          <div
-            class="_normalCtaPriceContainer_a2aca6"
-          >
-            <h4
-              class="_h4_f87b8c _inherit_f87b8c"
+              <h2
+                class="_h2_f87b8c _primary_f87b8c"
+              >
+                Small Business Plan
+              </h2>
+            </div>
+            <div
+              class="_normalCtaPriceContainer_a2aca6"
             >
-              $59 per month
-            </h4>
-          </div>
-          <div
-            class="_normalCtaBtnContainer_a2aca6"
-          >
-            <button
-              class="_resetButton_e76258 _baseBtn_e76258 _expand_e76258 _primary_e76258"
+              <h4
+                class="_h4_f87b8c _inherit_f87b8c"
+              >
+                $59 per month
+              </h4>
+            </div>
+            <div
+              class="_normalCtaBtnContainer_a2aca6"
             >
-              Sign Up Now
-            </button>
-          </div>
-          <div
-            class="_normalCtaBenefits_a2aca6"
-          >
-            You get Pulse Basics, plus:
+              <button
+                class="_resetButton_e76258 _baseBtn_e76258 _expand_e76258 _primary_e76258"
+              >
+                Sign Up Now
+              </button>
+            </div>
+            <div
+              class="_normalCtaBenefits_a2aca6"
+            >
+              You get Pulse Basics, plus:
+            </div>
           </div>
         </div>
         <ul
@@ -305,6 +309,16 @@ exports[`Components/Molecules/CardsTemplate/Normal/Normal > Default matches snap
             Track your actual cash flow alongside your projected cash flow
           </li>
         </ul>
+        <div
+          class="_mobileCtaBtnContainer_a2aca6"
+        >
+          <button
+            class="_resetButton_e76258 _baseBtn_e76258 _primary_e76258"
+            style="width: 100%;"
+          >
+            Sign Up Now
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -327,38 +341,42 @@ exports[`Components/Molecules/CardsTemplate/Premium/Premium > Default matches sn
       <div
         class="_premiumCtaContainer_ef17a5"
       >
-        <div>
-          <div
-            class="_premiumCtaTitle_ef17a5"
-          >
-            <h3
-              class="_h3_f87b8c _primary_f87b8c"
+        <div
+          class="_premiumCtaTitleContainer_ef17a5"
+        >
+          <div>
+            <div
+              class="_premiumCtaTitle_ef17a5"
             >
-              Unlock Extra Features
-            </h3>
-          </div>
-          <div
-            class="_premiumCtaPriceContainer_ef17a5"
-          >
-            <h4
-              class="_h4_f87b8c _inherit_f87b8c"
+              <h3
+                class="_h3_f87b8c _primary_f87b8c"
+              >
+                Unlock Extra Features
+              </h3>
+            </div>
+            <div
+              class="_premiumCtaPriceContainer_ef17a5"
             >
-              $89 per month
-            </h4>
-          </div>
-          <div
-            class="_premiumCtaBtnContainer_ef17a5"
-          >
-            <button
-              class="_resetButton_e76258 _baseBtn_e76258 _expand_e76258 _primary_e76258"
+              <h4
+                class="_h4_f87b8c _inherit_f87b8c"
+              >
+                $89 per month
+              </h4>
+            </div>
+            <div
+              class="_premiumCtaBtnContainer_ef17a5"
             >
-              Try Premium
-            </button>
-          </div>
-          <div
-            class="_premiumCtaBenefits_ef17a5"
-          >
-            Get it all, plus:
+              <button
+                class="_resetButton_e76258 _baseBtn_e76258 _expand_e76258 _primary_e76258"
+              >
+                Try Premium
+              </button>
+            </div>
+            <div
+              class="_premiumCtaBenefits_ef17a5"
+            >
+              Get it all, plus:
+            </div>
           </div>
         </div>
         <ul
@@ -380,6 +398,16 @@ exports[`Components/Molecules/CardsTemplate/Premium/Premium > Default matches sn
             Attach invoices or contracts to your cash flow entries for accountability and auditing
           </li>
         </ul>
+        <div
+          class="_mobileCtaBtnContainer_ef17a5"
+        >
+          <button
+            class="_resetButton_e76258 _baseBtn_e76258 _primary_e76258"
+            style="width: 100%;"
+          >
+            Try Premium
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -522,7 +550,9 @@ exports[`Components/Organisms/Footer/Footer > Default matches snapshot 1`] = `
                 />
               </a>
             </p>
-            <p>
+            <p
+              class="_ctaBtnContainer_ca85cc"
+            >
               <button
                 class="_resetButton_e76258 _baseBtn_e76258 _offset_e76258 _gradient_e76258"
               >
@@ -748,6 +778,23 @@ exports[`Components/Organisms/Header/Header > Default matches snapshot 1`] = `
             src="/src/assets/pulse-logo.svg"
           />
         </a>
+        <div
+          class="_mobileMenuContainer_5ec4db"
+        >
+          <button
+            class="_menuBtn_5ec4db"
+          >
+            <svg
+              class="_mobileMenuIcon_5ec4db"
+              viewBox="0 0 35 22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h35v2H0zM0 10h35v2H0zM0 20h35v2H0z"
+              />
+            </svg>
+          </button>
+        </div>
         <ul
           class="_navList_5ec4db"
         >
@@ -814,79 +861,75 @@ exports[`Components/Organisms/Header/Header > Default matches snapshot 1`] = `
 exports[`Components/Organisms/Product/Product > Default matches snapshot 1`] = `
 <div>
   <div
-    class="_sessionContainer_dc2575"
+    class="_titlesContainer_dc2575"
   >
     <div
-      class="_titlesContainer_dc2575"
+      class="_titles_dc2575"
     >
-      <div
-        class="_titles_dc2575"
+      <h1
+        class="_titleStyle_dc2575"
       >
-        <h1
-          class="_titleStyle_dc2575"
-        >
-          <br
-            class="_titleBreakLine_dc2575"
-          />
-        </h1>
-        <p
-          class="_p_f87b8c _textSecondary_f87b8c"
-        >
-          See why Pulse is the best way to monitor your cash flow. Sign up for any plan and try Pulse absolutely free for 30 days.
-        </p>
-      </div>
+        <br
+          class="_titleBreakLine_dc2575"
+        />
+      </h1>
+      <p
+        class="_p_f87b8c _textSecondary_f87b8c"
+      >
+        See why Pulse is the best way to monitor your cash flow. Sign up for any plan and try Pulse absolutely free for 30 days.
+      </p>
     </div>
+  </div>
+  <div
+    class="_productsContainer_dc2575"
+  >
     <div
-      class="_productsContainer_dc2575"
+      class="_cards_dc2575"
     >
       <div
-        class="_cards_dc2575"
+        class="_cardFree_106a36"
       >
         <div
-          class="_cardFree_106a36"
+          style="width: 392px; height: 400px;"
         >
+          a
+        </div>
+      </div>
+      <div
+        class="_card_106a36"
+      >
+        <div
+          class="_normalCard_106a36"
+        >
+          <div
+            class="_recommended_106a36"
+          >
+            <p>
+              RECOMMENDED
+            </p>
+          </div>
           <div
             style="width: 392px; height: 400px;"
           >
             a
           </div>
         </div>
+      </div>
+      <div
+        class="_card_106a36"
+      >
         <div
-          class="_card_106a36"
+          class="_premiumCard_106a36"
         >
           <div
-            class="_normalCard_106a36"
+            class="_premiumCardTitle_106a36"
           >
-            <div
-              class="_recommended_106a36"
-            >
-              <p>
-                RECOMMENDED
-              </p>
-            </div>
-            <div
-              style="width: 392px; height: 400px;"
-            >
-              a
-            </div>
+            Complex business with multiple financial accounts, currencies, or auditing needs?
           </div>
-        </div>
-        <div
-          class="_card_106a36"
-        >
           <div
-            class="_premiumCard_106a36"
+            style="width: 392px; height: 400px;"
           >
-            <div
-              class="_premiumCardTitle_106a36"
-            >
-              Complex business with multiple financial accounts, currencies, or auditing needs?
-            </div>
-            <div
-              style="width: 392px; height: 400px;"
-            >
-              a
-            </div>
+            a
           </div>
         </div>
       </div>

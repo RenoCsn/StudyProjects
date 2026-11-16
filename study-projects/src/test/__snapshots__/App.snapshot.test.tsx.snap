@@ -20,6 +20,23 @@ exports[`dev page matches snapshot 1`] = `
             src="/src/assets/pulse-logo.svg"
           />
         </a>
+        <div
+          class="_mobileMenuContainer_5ec4db"
+        >
+          <button
+            class="_menuBtn_5ec4db"
+          >
+            <svg
+              class="_mobileMenuIcon_5ec4db"
+              viewBox="0 0 35 22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h35v2H0zM0 10h35v2H0zM0 20h35v2H0z"
+              />
+            </svg>
+          </button>
+        </div>
         <ul
           class="_navList_5ec4db"
         >
@@ -84,107 +101,107 @@ exports[`dev page matches snapshot 1`] = `
     style="border-bottom: 1px var(--color-border-light) solid; background-color: var(--color-background-primary-light);"
   >
     <div
-      class="_sessionContainer_dc2575"
+      class="_titlesContainer_dc2575"
     >
       <div
-        class="_titlesContainer_dc2575"
+        class="_titles_dc2575"
       >
-        <div
-          class="_titles_dc2575"
+        <h1
+          class="_titleStyle_dc2575"
         >
-          <h1
-            class="_titleStyle_dc2575"
-          >
-            Try Pulse free for
-            <br
-              class="_titleBreakLine_dc2575"
-            />
-            30 days.
-          </h1>
-          <p
-            class="_p_f87b8c _textSecondary_f87b8c"
-          >
-            See why Pulse is the best way to monitor your cash flow. Sign up for any plan and try Pulse absolutely free for 30 days.
-          </p>
-        </div>
+          Try Pulse free for 
+          <br
+            class="_titleBreakLine_dc2575"
+          />
+          30 days.
+        </h1>
+        <p
+          class="_p_f87b8c _textSecondary_f87b8c"
+        >
+          See why Pulse is the best way to monitor your cash flow. Sign up for any plan and try Pulse absolutely free for 30 days.
+        </p>
       </div>
+    </div>
+    <div
+      class="_productsContainer_dc2575"
+    >
       <div
-        class="_productsContainer_dc2575"
+        class="_cards_dc2575"
       >
         <div
-          class="_cards_dc2575"
+          class="_cardFree_106a36"
         >
           <div
-            class="_cardFree_106a36"
+            class="_freeContainer_db8853"
+          >
+            <h5
+              class="_h5_f87b8c _primary_f87b8c"
+            >
+              These are what we call the Pulse Basics. They’re what every customer gets.
+            </h5>
+            <ul
+              class="_freeCardList_db8853"
+            >
+              <li
+                class="_freeCardItem_db8853"
+              >
+                Manage cash flow on a daily, weekly, monthly, or yearly basis
+              </li>
+              <li
+                class="_freeCardItem_db8853"
+              >
+                Forecast growth with recurring income or expenses that scale automatically
+              </li>
+              <li
+                class="_freeCardItem_db8853"
+              >
+                Works with any currency
+              </li>
+              <li
+                class="_freeCardItem_db8853"
+              >
+                See Money In and Money Out, categorize transactions, and run helpful reports
+              </li>
+              <li
+                class="_freeCardItem_db8853"
+              >
+                Toggle entries and accounts on and off to game out different scenarios
+              </li>
+            </ul>
+            <p
+              class="_cardOffer_db8853"
+            >
+              Just need the Pulse Basics?
+              <br />
+              <a
+                class="_freeCardOfferLink_db8853"
+                href="https://create.pulseapp.com/signup/"
+              >
+                Get them now
+              </a>
+               
+              for $29 per month.
+            </p>
+          </div>
+        </div>
+        <div
+          class="_card_106a36"
+        >
+          <div
+            class="_normalCard_106a36"
           >
             <div
-              class="_freeContainer_db8853"
+              class="_recommended_106a36"
             >
-              <h5
-                class="_h5_f87b8c _primary_f87b8c"
-              >
-                These are what we call the Pulse Basics. They’re what every customer gets.
-              </h5>
-              <ul
-                class="_freeCardList_db8853"
-              >
-                <li
-                  class="_freeCardItem_db8853"
-                >
-                  Manage cash flow on a daily, weekly, monthly, or yearly basis
-                </li>
-                <li
-                  class="_freeCardItem_db8853"
-                >
-                  Forecast growth with recurring income or expenses that scale automatically
-                </li>
-                <li
-                  class="_freeCardItem_db8853"
-                >
-                  Works with any currency
-                </li>
-                <li
-                  class="_freeCardItem_db8853"
-                >
-                  See Money In and Money Out, categorize transactions, and run helpful reports
-                </li>
-                <li
-                  class="_freeCardItem_db8853"
-                >
-                  Toggle entries and accounts on and off to game out different scenarios
-                </li>
-              </ul>
-              <p
-                class="_cardOffer_db8853"
-              >
-                Just need the Pulse Basics?
-                <br />
-                <a
-                  class="_freeCardOfferLink_db8853"
-                  href="https://create.pulseapp.com/signup/"
-                >
-                  Get them now
-                </a>
-                 
-                for $29 per month.
+              <p>
+                RECOMMENDED
               </p>
             </div>
-          </div>
-          <div
-            class="_card_106a36"
-          >
             <div
-              class="_normalCard_106a36"
+              class="_normalCtaContainer_a2aca6"
             >
               <div
-                class="_recommended_106a36"
-              >
-                <p>
-                  RECOMMENDED
-                </p>
-              </div>
-              <div
-                class="_normalCtaContainer_a2aca6"
+                class="_normalCtaTitleContainer_a2aca6"
               >
                 <div>
                   <div
@@ -220,46 +237,60 @@ exports[`dev page matches snapshot 1`] = `
                     You get Pulse Basics, plus:
                   </div>
                 </div>
-                <ul
-                  class="_normalCardList_a2aca6"
+              </div>
+              <ul
+                class="_normalCardList_a2aca6"
+              >
+                <li
+                  class="_normalCardItem_a2aca6"
                 >
-                  <li
-                    class="_normalCardItem_a2aca6"
-                  >
-                    Manage cash flow across multiple financial accounts
-                  </li>
-                  <li
-                    class="_normalCardItem_a2aca6"
-                  >
-                    Invite your investors, book keeper, or management team to see reports or manage cash flow
-                  </li>
-                  <li
-                    class="_normalCardItem_a2aca6"
-                  >
-                    Integrate with QuickBooks Online for more accurate cash flow
-                  </li>
-                  <li
-                    class="_normalCardItem_a2aca6"
-                  >
-                    Track your actual cash flow alongside your projected cash flow
-                  </li>
-                </ul>
+                  Manage cash flow across multiple financial accounts
+                </li>
+                <li
+                  class="_normalCardItem_a2aca6"
+                >
+                  Invite your investors, book keeper, or management team to see reports or manage cash flow
+                </li>
+                <li
+                  class="_normalCardItem_a2aca6"
+                >
+                  Integrate with QuickBooks Online for more accurate cash flow
+                </li>
+                <li
+                  class="_normalCardItem_a2aca6"
+                >
+                  Track your actual cash flow alongside your projected cash flow
+                </li>
+              </ul>
+              <div
+                class="_mobileCtaBtnContainer_a2aca6"
+              >
+                <button
+                  class="_resetButton_e76258 _baseBtn_e76258 _primary_e76258"
+                  style="width: 100%;"
+                >
+                  Sign Up Now
+                </button>
               </div>
             </div>
           </div>
+        </div>
+        <div
+          class="_card_106a36"
+        >
           <div
-            class="_card_106a36"
+            class="_premiumCard_106a36"
           >
             <div
-              class="_premiumCard_106a36"
+              class="_premiumCardTitle_106a36"
+            >
+              Complex business with multiple financial accounts, currencies, or auditing needs?
+            </div>
+            <div
+              class="_premiumCtaContainer_ef17a5"
             >
               <div
-                class="_premiumCardTitle_106a36"
-              >
-                Complex business with multiple financial accounts, currencies, or auditing needs?
-              </div>
-              <div
-                class="_premiumCtaContainer_ef17a5"
+                class="_premiumCtaTitleContainer_ef17a5"
               >
                 <div>
                   <div
@@ -295,25 +326,35 @@ exports[`dev page matches snapshot 1`] = `
                     Get it all, plus:
                   </div>
                 </div>
-                <ul
-                  class="_premiumCardList_ef17a5"
+              </div>
+              <ul
+                class="_premiumCardList_ef17a5"
+              >
+                <li
+                  class="_premiumCardItem_ef17a5"
                 >
-                  <li
-                    class="_premiumCardItem_ef17a5"
-                  >
-                    Manage cash flow across unlimited financial accounts
-                  </li>
-                  <li
-                    class="_premiumCardItem_ef17a5"
-                  >
-                    Convert to any currency for localized cash flow reporting and projections
-                  </li>
-                  <li
-                    class="_premiumCardItem_ef17a5"
-                  >
-                    Attach invoices or contracts to your cash flow entries for accountability and auditing
-                  </li>
-                </ul>
+                  Manage cash flow across unlimited financial accounts
+                </li>
+                <li
+                  class="_premiumCardItem_ef17a5"
+                >
+                  Convert to any currency for localized cash flow reporting and projections
+                </li>
+                <li
+                  class="_premiumCardItem_ef17a5"
+                >
+                  Attach invoices or contracts to your cash flow entries for accountability and auditing
+                </li>
+              </ul>
+              <div
+                class="_mobileCtaBtnContainer_ef17a5"
+              >
+                <button
+                  class="_resetButton_e76258 _baseBtn_e76258 _primary_e76258"
+                  style="width: 100%;"
+                >
+                  Try Premium
+                </button>
               </div>
             </div>
           </div>
@@ -477,7 +518,9 @@ exports[`dev page matches snapshot 1`] = `
                 />
               </a>
             </p>
-            <p>
+            <p
+              class="_ctaBtnContainer_ca85cc"
+            >
               <button
                 class="_resetButton_e76258 _baseBtn_e76258 _offset_e76258 _gradient_e76258"
               >
