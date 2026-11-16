@@ -17,6 +17,7 @@ function App() {
       <HeaderComponent
         logo={{ url: '/', img: logoImg }}
         items={headerTexts.items}
+        mobileItems={headerTexts.mobileItems}
         signUp={headerTexts.signUp}
       />
       <div

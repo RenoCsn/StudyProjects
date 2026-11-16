@@ -38,6 +38,10 @@
 }
 
 @media (max-width: 767px) {
+    .titlesContainer {
+        padding-top: 2rem;
+    }
+
     .titleStyle {
         font-size: 3rem;
         margin-bottom: 3rem;

@@ -6,5 +6,13 @@ export const headerTexts = {
     { label: 'Pricing', href: '/pricing' },
     { label: 'Blog', href: '/blog' },
   ],
+  mobileItems: [
+    { label: 'Features', href: '/features' },
+    { label: 'Customer Stories', href: '/customers' },
+    { label: 'Pricing', href: '/pricing' },
+    { label: 'Blog', href: '/blog' },
+    { label: 'Contact', href: '/contact' },
+    { label: 'Support', href: '/support' },
+  ],
   signUp: { label: 'Sign Up', href: '/signup' },
 } satisfies Omit<HeaderType, 'logo'>

@@ -10,5 +10,6 @@ export type NavItem = {
 export type HeaderType = {
   logo?: Logo
   items?: NavItem[]
+  mobileItems?: NavItem[]
   signUp?: NavItem
 }
