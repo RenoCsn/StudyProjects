@@ -1,5 +1,5 @@
 # Variables
-NAME ?= study-projects
+NAME ?= pulseLP
 TEMPLATE ?= react-ts
 
 DEV_PORT := 3000
