@@ -1,0 +1,135 @@
+.header {
+    background-color: var(--color-background-primary-light);
+}
+
+.headerContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mobileMenuContainer {
+    display: block;
+}
+
+.menuBtn {
+    display: flex;
+    color: var(--color-brand-primary);
+    cursor: pointer;
+    border: none;
+
+    :hover {
+        color: var(--color-brand-light);
+    }
+}
+
+.mobileMenuIcon {
+    width: 2rem;
+    fill: var(--color-brand-primary);
+    height: 2rem;
+
+    :hover {
+        fill: var(--color-brand-light);
+    }
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 2.5rem;
+}
+
+.navList {
+    display: none;
+    width: 100%;
+    flex-grow: 1;
+    list-style: none;
+}
+
+.navButtons:not(:last-child) {
+    margin-right: 2.5rem;
+}
+
+.navActions {
+    text-decoration: none;
+    color: var(--color-brand-primary);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navActions:hover {
+    color: var(--color-brand-dark);
+}
+
+.navActionsActive {
+    color: var(--color-brand-dark);
+}
+
+.mobileMenuListContainer {
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+    transition-delay: 0s;
+    top: 82px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1.5rem;
+    background-color: var(--color-background-primary-light);
+}
+
+.mobileNavList {
+    list-style: none;
+
+    >li:last-child {
+        padding-top: 1rem;
+    }
+}
+
+.mobileNavActions {
+    display: block;
+    text-decoration: none;
+    font-size: 2.25rem;
+    color: var(--color-brand-primary);
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+
+@media (min-width: 768px) {
+    .headerContainer {
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+
+    .navList {
+        display: flex;
+        flex-grow: 0;
+        align-items: center;
+        width: auto;
+    }
+
+    .mobileMenuContainer {
+        display: none;
+    }
+
+    .mobileMenuListContainer {
+        display: none;
+    }
+}

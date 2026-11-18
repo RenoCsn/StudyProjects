@@ -1,0 +1,55 @@
+:root {
+  --color-brand-primary: #00ad6a;
+  --color-brand-light: #1fe374;
+  --color-brand-dark: #062c27;
+  --color-text-primary: #464951;
+  --color-text-secondary: #080c16;
+  --color-background-primary-light: #eafaf1;
+  --color-background-secondary-light: #fcfcfc;
+  --color-copyright-light: #a9aaae;
+  --color-copyright-dark: #83858a;
+  --color-border-light: #d6dae5;
+  --color-background-premium: #f2f3f3;
+  --color-gradient-secondary: #23ea76;
+  --color-white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: var(--color-text-primary);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  background: transparent;
+  text-transform: none;
+  border: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

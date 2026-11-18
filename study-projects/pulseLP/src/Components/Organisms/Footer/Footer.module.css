@@ -1,0 +1,175 @@
+.footerContainer {
+    background-color: var(--color-text-secondary)
+}
+
+.siteMapContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+
+.outsideContainer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.insideContainer {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.ctaContainer {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.logoContainer {
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+}
+
+.logoImg {
+    width: 8rem;
+    height: auto;
+    max-width: 100%;
+}
+
+.siteMap {
+    font-size: 1.125rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuList {
+    width: 33.33333%;
+    padding: 1rem;
+    list-style: none;
+    margin: 0;
+}
+
+.menuName {
+    margin-bottom: .5rem;
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.menuItem {
+    margin-bottom: .5rem;
+}
+
+.menuItem:last-child {
+    margin-bottom: 0;
+}
+
+.menuLink {
+    text-decoration: none;
+    color: var(--color-brand-light);
+    font-weight: 400;
+}
+
+.menuLink:hover {
+    color: var(--color-white);
+}
+
+.copyright {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding-top: .75rem;
+    padding-bottom: 6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.copyrightContainer {
+    font-size: .75rem;
+    color: var(--color-copyright-dark);
+}
+
+.copyrightInsideContainer {
+    display: block;
+}
+
+.copyrightLink {
+    font-weight: 400;
+    color: var(--color-copyright-dark);
+    text-decoration: underline;
+}
+
+.copyrightLink:hover {
+    color: var(--color-copyright-light);
+}
+
+.ctaBtnContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .siteMap {
+        font-size: .875rem;
+        line-height: 1.3;
+    }
+}
+
+@media (min-width: 768px) {
+    .ctaContainer {
+        margin-bottom: 3rem;
+    }
+
+    .logoImg {
+        width: 10rem;
+    }
+
+    .menuList {
+        width: 33.33333%;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .copyright {
+        padding-bottom: .75rem;
+    }
+
+    .outsideContainer {
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+    }
+
+    .ctaBtnContainer {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+    .insideContainer {
+        display: flex;
+    }
+
+    .ctaContainer {
+        margin-bottom: 0;
+        text-align: left;
+        width: 50%;
+    }
+
+    .logoContainer {
+        margin-bottom: 3rem;
+    }
+
+    .siteMap {
+        width: 50%;
+    }
+
+    .menuName {
+        margin-bottom: 1rem;
+    }
+
+    .menuItem {
+        margin-bottom: 1rem;
+    }
+
+
+}

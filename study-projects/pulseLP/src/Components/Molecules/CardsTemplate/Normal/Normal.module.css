@@ -1,0 +1,124 @@
+.normalCtaPriceContainer {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    color: var(--color-copyright-dark);
+    letter-spacing: -.5px;
+}
+
+.normalCtaBtnContainer {
+    margin-top: auto;
+    margin-bottom: 2rem;
+    display: none;
+}
+
+.normalCtaBenefits {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    font-size: .75rem;
+}
+
+
+.normalCardList {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    list-style-type: none;
+    text-align: left;
+}
+
+.normalCardItem::before {
+    background-image: url('../../../../assets/icon-check-bullet.svg');
+    background-repeat: no-repeat;
+    content: "";
+    height: 12px;
+    left: -14px;
+    position: absolute;
+    top: 14px;
+    width: 12px;
+}
+
+.normalCardItem {
+    position: relative;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    letter-spacing: -.5px;
+}
+
+.mobileCtaBtnContainer {
+    display: block;
+    padding-top: 1rem;
+}
+
+@media (min-width: 320px) {
+    .normalCtaTitle {
+        display: inline-block;
+    }
+
+    .normalCtaPriceContainer {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 480px) {
+    .normalCtaPriceContainer {
+        padding-left: .5rem;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    .normalCtaTitleContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .normalCtaContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .normalCtaBenefits {
+        margin-top: 2rem;
+    }
+
+    .normalCardList {
+        line-height: 1.15;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .normalCtaContainer {
+        text-align: center;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .normalCtaTitle {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1rem;
+        display: block;
+    }
+
+    .normalCtaPriceContainer {
+        margin-bottom: 1.5rem;
+        display: block;
+    }
+
+    .normalCtaBtnContainer {
+        display: block;
+    }
+
+    .mobileCtaBtnContainer {
+        display: none;
+    }
+}
